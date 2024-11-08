@@ -83,4 +83,11 @@ function searchActivities() {
     filteredActivities.forEach((activity, index) => {
         const card = document.createElement('div');
         card.className = 'activity-card';
-        car
+        card.innerText = activity.title;
+        card.onclick = () => openModal(index);
+        activityList.appendChild(card);
+    });
+}
+
+// Exibir atividades ao carregar a página
+window.onload = displayActivities;
