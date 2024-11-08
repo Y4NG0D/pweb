@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub de Repositório de Atividades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hub de Atividades - Yan Pereira de Lima</h1>
+        <input type="text" id="searchBar" placeholder="Pesquisar atividades..." onkeyup="searchActivities()">
+    </header>
+    
+    <main>
+        <div class="activity-list" id="activityList">
+            <!-- Atividades serão inseridas aqui via JavaScript -->
+        </div>
+    </main>
+
+    <!-- Modal para exibir detalhes da atividade -->
+    <div id="activityModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="activityTitle"></h2>
+            <p id="activityDescription"></p>
+            <button id="activityLink" class="btn">Ver Código</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
