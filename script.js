@@ -47,6 +47,14 @@ function closeModal() {
     document.getElementById('activityModal').style.display = 'none';
 }
 
+// Função para alternar entre modo claro e modo noturno
+function toggleTheme() {
+    document.body.classList.toggle('dark-mode');
+    document.querySelector('header').classList.toggle('dark-mode');
+    document.querySelectorAll('.activity-card').forEach(card => card.classList.toggle('dark-mode'));
+    document.querySelector('.modal-content').classList.toggle('dark-mode');
+}
+
 // Função para pesquisar atividades
 function searchActivities() {
     const query = document.getElementById('searchBar').value.toLowerCase();
@@ -60,11 +68,4 @@ function searchActivities() {
     filteredActivities.forEach((activity, index) => {
         const card = document.createElement('div');
         card.className = 'activity-card';
-        card.innerText = activity.title;
-        card.onclick = () => openModal(index);
-        activityList.appendChild(card);
-    });
-}
-
-// Exibir atividades ao carregar a página
-window.onload = displayActivities;
+        car
