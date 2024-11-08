@@ -1,18 +1,33 @@
 // Dados das atividades (exemplo)
 const activities = [
     {
-        title: "Calculadora em JavaScript",
-        description: "Uma calculadora simples desenvolvida em JavaScript com operações básicas.",
-        link: "https://github.com/usuario/calculadora-js"
+        title: "Atividade 1 - Projeto Piloto",
+        description: "Primeira Atividade referente ao projeto piloto com Django e Vercel",
+        link: "https://piloto-iota.vercel.app"
     },
     {
-        title: "Página de Login",
-        description: "Página de login responsiva usando HTML e CSS com validação em JavaScript.",
+        title: "Atividade 2 - A definir",
+        description: "A definir descricao",
         link: "https://github.com/usuario/login-page"
     },
     {
-        title: "Lista de Tarefas",
-        description: "Aplicação de lista de tarefas com armazenamento local em JavaScript.",
+        title: "Atividade 3 - A definir",
+        description: "A definir descricao",
+        link: "https://github.com/usuario/todo-list"
+    },
+    {
+        title: "Atividade 4 - A definir",
+        description: "A definir descricao",
+        link: "https://github.com/usuario/todo-list"
+    },
+    {
+        title: "Atividade 5 - A definir",
+        description: "A definir descricao",
+        link: "https://github.com/usuario/todo-list"
+    },
+    {
+        title: "Atividade 6 - A definir",
+        description: "A definir descricao",
         link: "https://github.com/usuario/todo-list"
     },
     // Adicione mais atividades conforme necessário
