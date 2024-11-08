@@ -2,6 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
+    color: #333;
     margin: 0;
     padding: 0;
     display: flex;
@@ -30,6 +31,20 @@ header h1 {
     max-width: 600px;
     border: 1px solid #34495e;
     border-radius: 4px;
+}
+
+#themeToggle {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#themeToggle:hover {
+    background-color: #2980b9;
 }
 
 /* Lista de atividades */
@@ -105,4 +120,25 @@ header h1 {
 
 .btn:hover {
     background-color: #2980b9;
+}
+
+/* Modo Noturno */
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+header.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.activity-card.dark-mode {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+.modal-content.dark-mode {
+    background-color: #444;
+    color: #e0e0e0;
 }
