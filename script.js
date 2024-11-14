@@ -1,32 +1,32 @@
 // Dados das atividades (exemplo)
 const activities = [
     {
-        title: "Atividade 1 - Projeto Piloto",
-        description: "Primeira Atividade referente ao projeto piloto com Django e Vercel",
+        title: "Projeto 1 - Projeto Piloto",
+        description: "Sistema Cad Web com Django e Vercel, utilizando Python",
         link: "https://piloto-iota.vercel.app"
     },
     {
-        title: "Atividade 2 - A definir",
+        title: "Projeto 2 - A definir",
         description: "A definir descricao",
         link: "https://github.com/usuario/login-page"
     },
     {
-        title: "Atividade 3 - A definir",
+        title: "Projeto 3 - A definir",
         description: "A definir descricao",
         link: "https://github.com/usuario/todo-list"
     },
     {
-        title: "Atividade 4 - A definir",
+        title: "Projeto 4 - A definir",
         description: "A definir descricao",
         link: "https://github.com/usuario/todo-list"
     },
     {
-        title: "Atividade 5 - A definir",
+        title: "Projeto 5 - A definir",
         description: "A definir descricao",
         link: "https://github.com/usuario/todo-list"
     },
     {
-        title: "Atividade 6 - A definir",
+        title: "Projeto 6 - A definir",
         description: "A definir descricao",
         link: "https://github.com/usuario/todo-list"
     },
