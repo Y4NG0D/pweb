@@ -6,9 +6,9 @@ const activities = [
         link: "https://piloto-iota.vercel.app"
     },
     {
-        title: "Projeto 2 - A definir",
-        description: "A definir descricao",
-        link: "https://github.com/usuario/login-page"
+        title: "Projeto 2 - Cad Web",
+        description: "Sistema Cad Web com Django e Python, utilizando uma estrutura diferente do primeiro projeto",
+        link: "https://cad-web-navy.vercel.app/#"
     },
     {
         title: "Projeto 3 - A definir",
